@@ -1,0 +1,28 @@
+
+services:
+  app:
+    build: .
+    container_name: laravel_app
+    volumes:
+      - .:/var/www:delegated
+      - ./docker-entrypoint.sh:/docker-entrypoint.sh
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+    command: ["sh", "/docker-entrypoint.sh"]
+
+  db:
+    image: mysql:5.7
+    container_name: laravel_db
+    restart: always
+    environment:
+      MYSQL_DATABASE: laravel_db
+      MYSQL_ROOT_PASSWORD: secret
+    ports:
+      - "3307:3306"
+    volumes:
+      - dbdata:/var/lib/mysql
+    
+volumes:
+  dbdata:
