@@ -8,7 +8,7 @@ Usei [MySQL](https://www.mysql.com/) para dados transacionais. Ele gerencia os d
 
 O Diagrama Entidade-Relacionamento (DER) do Pedidos de Viagem para tabelas principais pode ser visto abaixo.
 
-![AIRA DER](img/bd.JPG)
+![AIRA DER](img/bd.jpg)
 
 As tabelas mais importantes que você deve conhecer e que o sistema implica estão listadas abaixo.
 
