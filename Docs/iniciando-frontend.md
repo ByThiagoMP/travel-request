@@ -8,8 +8,9 @@ Se você quiser evoluir ou personalizar o código do aplicativo, precisará de a
 
 💡 Caso queira rodar o projeto localmente sem Docker, será necessário configurar o arquivo .env.
 
-Este é um serviço Frontend feito em [Node.js](https://nodejs.org/), [pnpm](https://pnpm.io/pt/) e [Vue.js](https://vuejs.org/)
+Este é um serviço Frontend feito em [Vue.js](https://vuejs.org/), [Node.js](https://nodejs.org/) e [npm](https://www.npmjs.com/). 
 
+> Essas ferramentas é essenciais para esta rodando localmente*
 
 ## Rodando o Projeto sem Docker
 

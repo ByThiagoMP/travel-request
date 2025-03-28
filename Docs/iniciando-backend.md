@@ -10,8 +10,8 @@ Se você deseja evoluir ou personalizar o código do aplicativo, precisará de a
 
 💡 Caso queira rodar o projeto localmente sem Docker, será necessário configurar o arquivo .env.
 
-Este é um serviço Backend feito em [PHP](https://www.php.net/) com [Composer](https://getcomposer.org/) e [Laravel](https://laravel.com/docs/10.x/validation), utilizando banco de dados [MySQL](https://www.mysql.com/).
-
+Este é um serviço Backend feito em [PHP](https://www.php.net/), [Laravel](https://laravel.com/docs/10.x/validation) e [Composer](https://getcomposer.org/), utilizando banco de dados [MySQL](https://www.mysql.com/).
+> Essas ferramentas é essenciais para esta rodando localmente*
 
 ## Rodando o Projeto sem Docker
 

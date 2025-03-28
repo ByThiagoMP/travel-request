@@ -21,7 +21,7 @@ Este repositório contém dois principais diretórios:
 
 - [Estrutura de dados](Docs/estrutura-de-dados.md)
 - [Iniciando o Backend](Docs/iniciando-backend.md)
-- [Iniciando o Frontend](Docs/iniciando-front.md)
+- [Iniciando o Frontend](Docs/iniciando-frontend.md)
 - [Testando com PHPUnit](Docs/testando-com-phpunit.md)
 
 ---
@@ -41,7 +41,7 @@ Este repositório contém dois principais diretórios:
 **Frontend:**
 
 - Node.js
-- PNPM
+- NPM
 - Vue.js 3
 - Vite
 - Docker
