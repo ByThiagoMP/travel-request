@@ -3,12 +3,9 @@
 namespace Tests\Feature;
 
 use App\Models\User;
-use Illuminate\Support\Facades\Hash;
 use Tymon\JWTAuth\Facades\JWTAuth;
 use Tests\TestCase;
-use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
-
 class AuthTest extends TestCase
 {
     use DatabaseTransactions;

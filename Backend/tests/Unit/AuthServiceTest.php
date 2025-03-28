@@ -5,12 +5,7 @@ namespace Tests\Unit\Services;
 use Tests\TestCase;
 use Mockery;
 use App\Models\User;
-use App\Models\TravelOrder;
-use App\Services\TravelOrderService;
-use Illuminate\Support\Facades\Notification;
-use App\Notifications\StatusChangedNotification;
-use App\Models\TravelOrderStatus; // Add this import
-use App\Services\AuthService; // Import the AuthService class
+use App\Services\AuthService;
 
 class AuthServiceTest extends TestCase
 {

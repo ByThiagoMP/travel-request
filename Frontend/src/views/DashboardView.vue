@@ -98,7 +98,6 @@ const limparFiltros = async () => {
   await pedidosStore.buscarPedidos({ page: 1 })
   filtrosAplicados.value = false;
   isLoading.value = false;
-  // Aqui você pode também resetar os dados filtrados
 }
 
 const statusClass = (status: string) => {
@@ -202,7 +201,6 @@ const openModal = () => {
 // Função para fechar a modal
 const closeModal = () => {
   isModalOpen.value = false
-  // Limpar campos ao fechar a modal
   pedidoForm.value = { destination: '', departure_date: '', return_date: '' }
 }
 </script>

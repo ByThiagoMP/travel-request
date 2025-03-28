@@ -9,7 +9,7 @@ const router = createRouter({
       path: '/pedidos',
       name: 'pedidos',
       component: () => import('../views/DashboardView.vue'),
-      meta: { requiresAuth: true }, // Protege essa rota
+      meta: { requiresAuth: true },
     },
     {
       path: '/',

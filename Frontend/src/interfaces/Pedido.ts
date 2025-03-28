@@ -1,5 +1,3 @@
-// src/interfaces/Pedido.ts
-
 export interface Pedido {
     id: number
     user_id: number

@@ -1,5 +1,5 @@
-import { useAuthStore } from '@/stores/auth'  // Importando a store
-import { useRouter } from 'vue-router'       // Importando o router
+import { useAuthStore } from '@/stores/auth'
+import { useRouter } from 'vue-router'
 import axios from 'axios'
 
 const api = axios.create({
